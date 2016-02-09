@@ -1,0 +1,168 @@
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/css3/background-size";
+
+
+$background-color: #FFFFFF;
+$background-color-dark: #414A52;
+
+$section-color-green: #4FC680;
+$section-color-white: white;
+$section-color-gray: #F1F1F1;
+
+$shadow-color: #111111;
+
+$text-color-dark: #000000;
+$text-color-light: #FFFFFF;
+
+$padding-default: 40px;
+$footer-height: 250px;
+
+
+
+html, body {
+  height: 100%; // To allow set a min-height in .main
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  background-color: $background-color-dark;
+}
+
+a, a:hover, a:focus {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+// Footer effect
+main {
+  background-color: $background-color;
+  min-height: 100%;
+  @include box-shadow($shadow-color 0 5px 15px);
+}
+
+footer {  
+  height: $footer-height;
+  width: 100%;
+}
+
+#footer-content {
+  height: $footer-height;
+  width: 100%;
+  padding-top: $padding-default;
+  color: $text-color-light;
+  position: fixed;
+  bottom: 0;
+  z-index: -100;
+  text-shadow: 0 0 5px $text-color-dark;
+
+  img {
+    position: absolute;
+    bottom: $padding-default;
+    
+  }
+}
+
+#game-of-life {  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 500px;
+  height: 250px;
+}
+
+// Header
+header {  
+  padding-top: 10px;
+  height: 100%;
+  min-height: 400px;
+  background-image: image-url("header-background.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
+  @include background-size(cover);
+  @include box-shadow($shadow-color 0 -10 10px inset);
+  div {
+    padding: 10% $padding-default; // Center vertically
+    color: $text-color-light;
+
+    h1 {
+      padding: $padding-default;
+    }
+
+    @media all and (min-width: 960px) {
+      h1 { font-size: 80px; }
+      h2 { font-size: 40px; }
+    }
+
+    @media all and (max-width: 959px) and (min-width: 600px) {
+      h1 { font-size: 50px; }
+      h2 { font-size: 20px; }
+    }
+
+    @media all and (max-width: 599px) and (min-width: 50px) {
+      h1 { font-size: 35px; }
+      h2 { font-size: 20px; }
+    }  
+  }
+}
+
+// Content
+section {
+  width: 100%;
+  padding: 60px 0 60px 0;
+  color: $text-color-dark;
+  text-align: center;
+
+  .row {
+    .col-md-3, .col-md-4, .col-md-6 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#aboutme-section {
+    max-width: 650px;
+}
+
+#mobile-section {
+  padding-bottom: 0;
+  .col-md-6 {
+      padding-bottom: 0;
+    }
+}
+
+h3 {
+  margin-bottom: 15px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.green-section {
+  background-color: $section-color-green;
+  background-image: image-url("icons-background.png");
+  background-attachment: fixed;
+  color: $text-color-light;
+}
+
+.white-section {
+  background-color: $section-color-white;
+
+}
+
+.gray-section {
+  background-color: $section-color-gray;
+}
+
+.white-section, .gray-section {
+  i {
+    color: $section-color-green;
+  }
+}

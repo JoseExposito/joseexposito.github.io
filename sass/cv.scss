@@ -1,0 +1,114 @@
+* { margin:0; padding: 0;}	
+A:link    { text-decoration:none; color:#000000; }
+A:visited { text-decoration:none; color:#000000; }
+A:hover   { text-decoration:none; color:#000000; }
+A:active  { text-decoration:none; color:#000000; }
+
+body {
+	background-color: #FFFFFF;
+	font-family: Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+#dina4 {
+	width: 21cm;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* HEADER */
+#header {
+	background-color: #3C3C3C;	
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+#header #title {
+	clear: both;	
+	font-size: 80px;
+}
+#header #title .first {
+	color: #DDDDDD;
+}
+#header #title .second {
+	font-weight: bold;
+}
+
+#header #subtitle {
+	font-size: 20px;
+	color: #777777;
+}
+
+
+/* LEFT COLUMN */
+#left-column {
+	width: 200px;
+	float: left;
+	padding: 20px 20px;
+}
+
+#left-column table {
+	border: none;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+th {
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+
+
+
+/* CONTENT */
+#content {
+	/*margin-left: 220px;*/
+	padding: 20px 20px;
+}
+
+#content table {
+	border: none;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.age-column {
+	text-align: right;
+	padding-right: 10px;
+	color: #AAAAAA;
+	vertical-align: text-top;
+	width: 130px;
+}
+.content-column {
+	padding-bottom: 5px;
+}
+
+.content-title {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.content-description {
+	color: #444444;
+}
+
+.content-ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.skills1 {
+	color: #000000;
+	padding-right: 10px;
+}
+
+.skills2 {
+	color: #777777;
+	padding-right: 10px;
+}
+
+.table-introduction {
+	padding-bottom: 10px;
+}
