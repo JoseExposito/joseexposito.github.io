@@ -106,9 +106,13 @@ footer {
 #footer-content img {
   position: absolute;
   bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
-/* line 63, ../sass/general.scss */
+/* line 66, ../sass/general.scss */
 #game-of-life {
   position: absolute;
   margin-left: auto;
@@ -120,7 +124,7 @@ footer {
   height: 250px;
 }
 
-/* line 75, ../sass/general.scss */
+/* line 78, ../sass/general.scss */
 header {
   padding-top: 10px;
   height: 100%;
@@ -136,81 +140,81 @@ header {
   -webkit-box-shadow: #111111 0 -10 10px inset;
   box-shadow: #111111 0 -10 10px inset;
 }
-/* line 84, ../sass/general.scss */
+/* line 87, ../sass/general.scss */
 header div {
   padding: 10% 40px;
   color: #FFFFFF;
 }
-/* line 88, ../sass/general.scss */
+/* line 91, ../sass/general.scss */
 header div h1 {
   padding: 40px;
 }
 @media all and (min-width: 960px) {
-  /* line 93, ../sass/general.scss */
+  /* line 96, ../sass/general.scss */
   header div h1 {
     font-size: 80px;
   }
-  /* line 94, ../sass/general.scss */
+  /* line 97, ../sass/general.scss */
   header div h2 {
     font-size: 40px;
   }
 }
 @media all and (max-width: 959px) and (min-width: 600px) {
-  /* line 98, ../sass/general.scss */
+  /* line 101, ../sass/general.scss */
   header div h1 {
     font-size: 50px;
   }
-  /* line 99, ../sass/general.scss */
+  /* line 102, ../sass/general.scss */
   header div h2 {
     font-size: 20px;
   }
 }
 @media all and (max-width: 599px) and (min-width: 50px) {
-  /* line 103, ../sass/general.scss */
+  /* line 106, ../sass/general.scss */
   header div h1 {
     font-size: 35px;
   }
-  /* line 104, ../sass/general.scss */
+  /* line 107, ../sass/general.scss */
   header div h2 {
     font-size: 20px;
   }
 }
 
-/* line 110, ../sass/general.scss */
+/* line 113, ../sass/general.scss */
 section {
   width: 100%;
   padding: 60px 0 60px 0;
   color: #000000;
   text-align: center;
 }
-/* line 117, ../sass/general.scss */
+/* line 120, ../sass/general.scss */
 section .row .col-md-3, section .row .col-md-4, section .row .col-md-6 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 124, ../sass/general.scss */
+/* line 127, ../sass/general.scss */
 #aboutme-section {
   max-width: 650px;
 }
 
-/* line 128, ../sass/general.scss */
+/* line 131, ../sass/general.scss */
 #mobile-section {
   padding-bottom: 0;
 }
-/* line 130, ../sass/general.scss */
+/* line 133, ../sass/general.scss */
 #mobile-section .col-md-6 {
   padding-bottom: 0;
 }
 
-/* line 135, ../sass/general.scss */
+/* line 138, ../sass/general.scss */
 h3 {
   margin-bottom: 15px;
   font-size: 2em;
   font-weight: bold;
 }
 
-/* line 141, ../sass/general.scss */
+/* line 144, ../sass/general.scss */
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -218,7 +222,7 @@ h4 {
   font-weight: bold;
 }
 
-/* line 148, ../sass/general.scss */
+/* line 151, ../sass/general.scss */
 .green-section {
   background-color: #4FC680;
   background-image: url('../img/icons-background.png?1450275255');
@@ -226,17 +230,17 @@ h4 {
   color: #FFFFFF;
 }
 
-/* line 155, ../sass/general.scss */
+/* line 158, ../sass/general.scss */
 .white-section {
   background-color: white;
 }
 
-/* line 160, ../sass/general.scss */
+/* line 163, ../sass/general.scss */
 .gray-section {
   background-color: #F1F1F1;
 }
 
-/* line 165, ../sass/general.scss */
+/* line 168, ../sass/general.scss */
 .white-section i, .gray-section i {
   color: #4FC680;
 }

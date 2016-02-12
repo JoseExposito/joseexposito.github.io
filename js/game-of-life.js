@@ -6,7 +6,7 @@ $(document).ready(function() {
     canvas.strokeStyle = 'white';
     canvas.fillStyle   = 'white';
 
-    $('footer').click(function(e) {
+    $('footer').dblclick(function(e) {
         console.log($('#glider').width());
         
         // Because of the z-index the image is not clickable, workaround
