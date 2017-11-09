@@ -129,7 +129,7 @@ header {
   padding-top: 10px;
   height: 100%;
   min-height: 400px;
-  background-image: url('../img/header-background.jpg?1510135565');
+  background-image: url('../img/header-background.jpg?1510228858');
   background-repeat: no-repeat;
   background-position: center center;
   -moz-background-size: cover;
@@ -225,7 +225,7 @@ h4 {
 /* line 151, ../sass/general.scss */
 .green-section {
   background-color: #4FC680;
-  background-image: url('../img/icons-background.png?1510135565');
+  background-image: url('../img/icons-background.png?1510228858');
   background-attachment: fixed;
   color: #FFFFFF;
 }
