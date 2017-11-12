@@ -35,16 +35,16 @@ body {
   font-size: 14px;
 }
 
-/* line 12, ../sass/cv.scss */
-#dina4 {
+/* line 13, ../sass/cv.scss */
+.dina4 {
   width: 21cm;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* HEADER */
-/* line 19, ../sass/cv.scss */
-#header {
+/* line 20, ../sass/cv.scss */
+.header {
   background-color: #3C3C3C;
   color: #FFFFFF;
   text-align: center;
@@ -52,65 +52,37 @@ body {
   padding-top: 70px;
 }
 
-/* line 26, ../sass/cv.scss */
-#header #title {
+/* line 27, ../sass/cv.scss */
+.header .title {
   clear: both;
   font-size: 80px;
 }
 
-/* line 30, ../sass/cv.scss */
-#header #title .first {
+/* line 31, ../sass/cv.scss */
+.header .title .first {
   color: #DDDDDD;
 }
 
-/* line 33, ../sass/cv.scss */
-#header #title .second {
+/* line 34, ../sass/cv.scss */
+.header .title .second {
   font-weight: bold;
 }
 
-/* line 37, ../sass/cv.scss */
-#header #subtitle {
+/* line 38, ../sass/cv.scss */
+.header .subtitle {
   font-size: 20px;
   color: #AAA;
 }
 
-/* LEFT COLUMN */
-/* line 44, ../sass/cv.scss */
-#left-column {
-  width: 200px;
-  float: left;
-  padding: 20px 20px;
-}
-
-/* line 50, ../sass/cv.scss */
-#left-column table {
-  border: none;
-  width: 100%;
-  margin-bottom: 10px;
-  text-align: right;
-}
-
-/* line 57, ../sass/cv.scss */
-th {
-  font-size: 20px;
-  padding: 10px 0;
-}
-
 /* CONTENT */
-/* line 66, ../sass/cv.scss */
-#content {
-  /*margin-left: 220px;*/
-  padding: 20px 20px;
-}
-
-/* line 71, ../sass/cv.scss */
-#content table {
+/* line 44, ../sass/cv.scss */
+.content table {
   border: none;
   margin-bottom: 10px;
   text-align: left;
 }
 
-/* line 77, ../sass/cv.scss */
+/* line 50, ../sass/cv.scss */
 .age-column {
   text-align: right;
   padding-right: 10px;
@@ -119,41 +91,76 @@ th {
   width: 130px;
 }
 
-/* line 84, ../sass/cv.scss */
+/* line 57, ../sass/cv.scss */
 .content-column {
   padding-bottom: 5px;
 }
 
-/* line 88, ../sass/cv.scss */
+/* line 61, ../sass/cv.scss */
 .content-title {
   font-weight: bold;
   padding-bottom: 5px;
 }
 
-/* line 93, ../sass/cv.scss */
+/* line 66, ../sass/cv.scss */
 .content-description {
   color: #444444;
 }
 
-/* line 97, ../sass/cv.scss */
+/* line 70, ../sass/cv.scss */
 .content-ul {
   list-style-type: square;
   padding-left: 20px;
 }
 
-/* line 102, ../sass/cv.scss */
+/* line 75, ../sass/cv.scss */
 .skills1 {
   color: #000000;
   padding-right: 10px;
 }
 
-/* line 107, ../sass/cv.scss */
+/* line 80, ../sass/cv.scss */
 .skills2 {
   color: #555;
   padding-right: 10px;
 }
 
-/* line 112, ../sass/cv.scss */
+/* line 85, ../sass/cv.scss */
 .table-introduction {
   padding-bottom: 10px;
+}
+
+/* HALF WIDTH CONTENT */
+/* line 91, ../sass/cv.scss */
+.left-column {
+  width: 200px;
+  float: left;
+  padding: 20px 20px;
+}
+
+/* line 97, ../sass/cv.scss */
+.left-column table {
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* line 104, ../sass/cv.scss */
+th {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+/* line 109, ../sass/cv.scss */
+.right-colunm {
+  margin-left: 200px;
+  padding: 20px 20px;
+}
+
+/* FULL WIDTH CONTENT */
+/* line 115, ../sass/cv.scss */
+.full-width-content {
+  clear: both;
+  padding: 0px 40px;
 }
