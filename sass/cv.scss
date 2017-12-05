@@ -21,8 +21,8 @@ body {
 	background-color: #3C3C3C;	
 	color: #FFFFFF;
 	text-align: center;
-	padding-bottom: 70px;
-	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 .header .title {
 	clear: both;	
@@ -56,6 +56,7 @@ body {
 }
 .content-column {
 	padding-bottom: 5px;
+	text-align: justify;
 }
 
 .content-title {
@@ -91,13 +92,13 @@ body {
 .left-column {
 	width: 200px;
 	float: left;
-	padding: 20px 20px;
+	padding: 20px 20px 0;
 }
 
 .left-column table {
 	border: none;
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	text-align: right;
 }
 
@@ -115,4 +116,24 @@ th {
 .full-width-content {
 	clear: both;
 	padding: 0px 40px;
+}
+
+/* KEYWORDS */
+.keyword-container {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.keyword {
+    font-size: 14px;
+    background-color: #BBB;
+		margin-top: 5px;
+		display: inline-block;
+		padding: 3px 9px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .70em;
 }
