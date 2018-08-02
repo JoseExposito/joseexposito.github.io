@@ -72,17 +72,18 @@ body {
 .header .subtitle {
   font-size: 20px;
   color: #AAA;
+  padding-top: 10px;
 }
 
 /* CONTENT */
-/* line 44, ../sass/cv.scss */
+/* line 45, ../sass/cv.scss */
 .content table {
   border: none;
   margin-bottom: 10px;
   text-align: left;
 }
 
-/* line 50, ../sass/cv.scss */
+/* line 51, ../sass/cv.scss */
 .age-column {
   text-align: right;
   padding-right: 10px;
@@ -91,55 +92,55 @@ body {
   width: 130px;
 }
 
-/* line 57, ../sass/cv.scss */
+/* line 58, ../sass/cv.scss */
 .content-column {
   padding-bottom: 5px;
   text-align: justify;
 }
 
-/* line 62, ../sass/cv.scss */
+/* line 63, ../sass/cv.scss */
 .content-title {
   font-weight: bold;
   padding-bottom: 5px;
 }
 
-/* line 67, ../sass/cv.scss */
+/* line 68, ../sass/cv.scss */
 .content-description {
   color: #444444;
 }
 
-/* line 71, ../sass/cv.scss */
+/* line 72, ../sass/cv.scss */
 .content-ul {
   list-style-type: square;
   padding-left: 20px;
 }
 
-/* line 76, ../sass/cv.scss */
+/* line 77, ../sass/cv.scss */
 .skills1 {
   color: #000000;
   padding-right: 10px;
 }
 
-/* line 81, ../sass/cv.scss */
+/* line 82, ../sass/cv.scss */
 .skills2 {
   color: #555;
   padding-right: 10px;
 }
 
-/* line 86, ../sass/cv.scss */
+/* line 87, ../sass/cv.scss */
 .table-introduction {
   padding-bottom: 10px;
 }
 
 /* HALF WIDTH CONTENT */
-/* line 92, ../sass/cv.scss */
+/* line 93, ../sass/cv.scss */
 .left-column {
   width: 200px;
   float: left;
   padding: 20px 20px 0;
 }
 
-/* line 98, ../sass/cv.scss */
+/* line 99, ../sass/cv.scss */
 .left-column table {
   border: none;
   width: 100%;
@@ -147,33 +148,33 @@ body {
   text-align: right;
 }
 
-/* line 105, ../sass/cv.scss */
+/* line 106, ../sass/cv.scss */
 th {
   font-size: 20px;
   padding: 10px 0;
 }
 
-/* line 110, ../sass/cv.scss */
+/* line 111, ../sass/cv.scss */
 .right-colunm {
   margin-left: 200px;
   padding: 20px 20px;
 }
 
 /* FULL WIDTH CONTENT */
-/* line 116, ../sass/cv.scss */
+/* line 117, ../sass/cv.scss */
 .full-width-content {
   clear: both;
   padding: 0px 40px;
 }
 
 /* KEYWORDS */
-/* line 122, ../sass/cv.scss */
+/* line 123, ../sass/cv.scss */
 .keyword-container {
   width: 100%;
   margin-bottom: 10px;
 }
 
-/* line 127, ../sass/cv.scss */
+/* line 128, ../sass/cv.scss */
 .keyword {
   font-size: 14px;
   background-color: #BBB;

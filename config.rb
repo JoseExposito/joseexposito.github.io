@@ -1,4 +1,4 @@
-# To automatically convert css files to scss execute:
+# To automatically convert scss files to css execute:
 # $ compass watch
 
 require 'compass/import-once/activate'
